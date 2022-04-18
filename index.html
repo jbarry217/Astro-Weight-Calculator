@@ -5,8 +5,13 @@
     <title>Astro Weight Calculator</title>
   </head>
   <body>
-     <!-- Write your markup here  -->
-
+     <input id="user-weight" type="text" placeholder="Weight(lbs)"/>
+     <select id="planets">
+       <option id="option"> Select Planet </option>
+      </select>
+    <input id="calculate-button" type="button" onclick="calculateWeight()" value="Calculate" />
     <script src="main.js" charset="utf-8"></script>
+    <p id="output"></p>
+    </p>
   </body>
 </html>
