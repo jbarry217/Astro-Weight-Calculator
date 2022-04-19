@@ -15,6 +15,7 @@ var planetsArray = [
 // Populate the dropdown element with the data found in the planets array. 
 
 const select = document.getElementById("planets");
+planetsArray.reverse();
 planetsArray.forEach((item) => {
     var option = document.createElement("option");
     option.innerHTML = item[0];
@@ -48,9 +49,6 @@ message.innerHTML= `If you were on ${planetName}, you would weigh ${result}lbs!`
 // Set the #calculate-button element's onclick method to use the handleClickEvent function. (once I do 3, 4, 7- console.log)
 document.getElementById("calculate-button").addEventListener("click", () => handleClickEvent())
 
-// 8. Make it look nice by attaching  a style.css file to your index.html and writing some basic styling, 
-    // feel free to add classes and id's to the HTML elements as you need, 
-    // import.a google font and use it for some or all of the text on your page. 
    
    
     // Bonus Challenges 
