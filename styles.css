@@ -1,13 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
 
 body {
-    background-color: rgb(255, 255, 255);
-    background-image: url("starry-background.png");
-    font-family: 'Abril Fatface', cursive;
+    background-image: url("./images/starry-background.png");
+    font-family: 'Audiowide', cursive;
+    color: whitesmoke;
+    margin-top:12%;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
     display: table
-   
 }
+#header {
+    font-size:x-large; 
+    text-align:center;
+    background: -webkit-linear-gradient(rgb(15, 238, 82), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    filter: drop-shadow(2px 2px rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#output {
+    height: 4rem;
+    width: auto;
+    padding: 30px 5px 1px 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    font-family: 'Audiowide', cursive; 
+    font-size:x-large;
+    text-align:center;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.weight {
+    height: 4rem;
+    font-size:medium;
+    width: auto;
+    padding: 1px 5px 1px 5px;
+    border-radius: 10px;
+    margin-left: 0px;
+    font-family: 'Audiowide', cursive;
+    text-align:center;
+}
+
+.selection {
+    height: 4rem;
+    font-size:medium;
+    width: auto;
+    padding: 1px 5px 1px 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-family: 'Audiowide', cursive;
+    text-align:center;
+    
+}
+.button {
+    height: 4rem;
+    font-size:medium;
+    width: auto;
+    padding: 1px 10px 1px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-family: 'Audiowide', cursive;
+    text-align:center;
+}
+

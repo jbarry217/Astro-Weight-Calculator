@@ -3,16 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Astro Weight Calculator</title>
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-     <input id="user-weight" type="text" placeholder="Weight(lbs)"/>
-     <select id="planets">
+    <div id="header">
+    <h1> Astro Weight Calculator </h1>
+    </div>
+    <div class="boxes">
+     <input id="user-weight" class="weight" type="text" placeholder="Weight(lbs)"/>
+     <select id="planets" class="selection">
        <option id="option"> Select Planet </option>
       </select>
-    <input id="calculate-button" type="button" onclick="calculateWeight()" value="Calculate" />
-    <script src="main.js" charset="utf-8"></script>
+    <input id="calculate-button" class="button" type="button" onclick="calculateWeight()" value="Calculate" />
+    </div>
+    <div id="output">
     <p id="output"></p>
     </p>
+    </div>
+    <link rel="stylesheet" href="styles.css"/>
   </body>
+
+  <script src="main.js" charset="utf-8"></script>
 </html>
